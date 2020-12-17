@@ -28,10 +28,15 @@ hr {
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 600px;
+    max-width: 650px;
 }
 
 /** links **/
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
 
 .primary-link {
     text-decoration: none;
@@ -91,12 +96,16 @@ hr {
 .hero {
     color: var(--dark-gray);
     display: block;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
 }
 
 .hero img {
     max-width: 350px;
     margin: auto;
     display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /** section **/
@@ -133,6 +142,7 @@ hr {
     padding: 2rem 0rem;
     border-top-right-radius: 1rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .footer .heading {
@@ -143,4 +153,13 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer .link {
+    color: white;
+}
+
+.emphasis {
+    color: var(--primary);
+    font-weight: bold;
 }
