@@ -4,6 +4,7 @@
     --primary: #3B82F6;
     --gray: #F7F5FB;
     --dark-gray: #6B7280;
+    --primary-dark: rgb(0, 0, 68);
 }
 
 body {
@@ -85,11 +86,13 @@ hr {
 
 .navigation a {
     text-decoration: none;
-    color: white
+    color: white;
+    font-size: 1.2rem;
 }
 
 .navigation .active {
     font-weight: bold;
+    color: var(--primary-dark);
 }
 
 /** header **/
@@ -156,8 +159,8 @@ hr {
     padding-inline-start: 0px;
 }
 
-.footer .link {
-    color: white;
+.footer .link img {
+    filter: invert();
 }
 
 .emphasis {
